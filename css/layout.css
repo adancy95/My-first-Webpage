@@ -1,0 +1,88 @@
+body, html{
+    margin:0px;
+    padding:0px;
+    font-family: 'Flamenco', cursive;
+
+}
+
+
+header{
+    background-color: #6B5D4D;
+    color:#FBEED3;    
+    padding: 20px;
+    overflow: hidden;
+    font-family: 'Amethysta', serif;
+    
+
+
+
+}
+
+header .site_title{
+    font-size:20px;
+    font-weight:bold;
+    padding: 0px 20px 0px 0px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+header ul{
+    
+    
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    overflow: hidden;
+    margin: 0px;
+
+}
+
+header ul li{
+    display: inline-block;
+    float: left;
+    margin-right: 25px;
+    
+}
+
+section{
+    padding: 10px 30px;
+   
+    
+}
+
+section#left_section{
+    float: left;
+    width: 70px;
+    background-color:#429398;
+    height: 600px;
+    color: #FBEED3;
+}
+
+section#right_section{
+    float: right;
+    width: 80%;
+    font-family: 'Expletus Sans', cursive;
+    font-size: 15px
+    
+}
+
+footer{
+    min-width: 100%;
+    padding: 10px 30px;
+    background-color: #FBEED3;
+    color:#429398;
+    text-align: right;
+    font-family: Stalemate;
+ 
+}
+/* This is a comment */
+br{
+    clear:both;
+}
+
+a{
+    color:#FBEED3;
+    text-decoration: none;
+    
+}
